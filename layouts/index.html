@@ -3,6 +3,9 @@
   {{ if isset .Site.Params "description" }}
     {{ .Site.Params.description }}
   {{ end }}
+  {{ if (and (isset .Site.Params "homecontent") (eq .Site.Params.homeContent true)) }}
+    {{ .Content }}
+  {{ end }}
   {{ if isset .Site.Params "social" }}
       <p>Find me on
       {{ $length := (len .Site.Params.social) }}
