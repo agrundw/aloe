@@ -1,5 +1,17 @@
-## Cactus
+## Aloe
 
+Personal fork of [cactus]i(https://github.com/monkeyWzr/hugo-theme-cactus) for hugo. There are a couple of things that I want to change functionality wise, but I really like cactus as starting point.
+
+### Todos
+- [ ] Allow rendering in terminal with no JavaScript
+- [ ] Replace / Retool side bar and toc
+- [ ] Pull in some style from [terminal](https://github.com/panr/hugo-theme-terminal)
+
+Considering I know pratically nothing about web development this should keep my occupied :D.
+
+---
+
+## Cactus
 A hugo theme for personal blog. Fork from hexo theme [cactus](https://github.com/probberechts/hexo-theme-cactus) created by @probberechts.
 
 [Live demo on github pages](https://www.takuzen.me/hugo-theme-cactus/).
